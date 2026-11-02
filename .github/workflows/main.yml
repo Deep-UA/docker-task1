@@ -18,5 +18,4 @@ jobs:
         with:
           working-directory: ./.github/tests
       - name: Final Step
-        run: |
-          gh repo edit $GITHUB_REPOSITORY --visibility private --accept-visibility-change-consequences
+        run: echo 'Success'
